@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Model">
+      <UniqueIdentifier>{ecfb200d-2ee6-418b-9be3-c08fe4c03efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View">
+      <UniqueIdentifier>{a83982b7-8732-4766-989c-5266afc821b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller">
+      <UniqueIdentifier>{bf70e68d-5013-44ba-96fe-6315e0daeeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Global">
+      <UniqueIdentifier>{05f69e8b-95e8-4ff2-bf30-3895e51fdc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Delegate">
+      <UniqueIdentifier>{c7655f22-72c7-4b82-8aae-d6ffe4274e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Helper">
+      <UniqueIdentifier>{55a0c6a1-8a6f-4fee-ae93-6b646583e1a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Controller\GameController.cpp">
+      <Filter>src\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\Converter.cpp">
+      <Filter>src\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\Parser.cpp">
+      <Filter>src\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\RowCol.cpp">
+      <Filter>src\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global\VisibleRect.cpp">
+      <Filter>src\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\Cookie.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\GameModel.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\Level.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\BackgroundLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\CookieLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\GameScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\HUDLayer.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\Faller.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Controller\GameController.h">
+      <Filter>src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Delegate\GameDelegate.h">
+      <Filter>src\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\Converter.h">
+      <Filter>src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\Marcos.h">
+      <Filter>src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\Parser.h">
+      <Filter>src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\RowCol.h">
+      <Filter>src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global\VisibleRect.h">
+      <Filter>src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\Cookie.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\GameModel.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\Level.h">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\BackgroundLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\CookieLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\GameScene.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\HUDLayer.h">
+      <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\Faller.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
